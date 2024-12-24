@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.form input, .form select {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 80%;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.overview {
+    margin-top: 20px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.transactions {
+    margin-top: 20px;
+}
+
+.transactions ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.transactions li {
+    padding: 8px;
+    background-color: #f9f9f9;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#clear-all {
+    background-color: #e74c3c;
+    margin-top: 20px;
+}
+
+#clear-all:hover {
+    background-color: #c0392b;
+}
